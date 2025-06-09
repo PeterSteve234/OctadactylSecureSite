@@ -1,0 +1,118 @@
+body {
+    font-family: Segoe UI, Arial, sans-serif;
+    background: url('https://cdn.wallpapersafari.com/32/34/DRQBFd.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    
+}
+h1, h2, h3, h4, h5, h6, p, span, a, ul, li {
+    font-family: Segoe UI, Arial, sans-serif;
+    color: #cecece;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    text-align: left;
+    border-radius: 3px;
+    border-color: #222;
+}
+
+#3b3b3b
+.logo {
+    width: 30%;
+    height: 20px;
+    width: 100%;
+    opacity: 0.2;
+
+}
+
+
+.StyleBar {
+    background: linear-gradient(
+        to top,
+        #ff9800 0%,
+        #ffb347 50%,
+        #fff3e0 51%,
+        #ff9800 100%
+    );
+    border-radius: 16px 16px 0 0;
+    box-shadow:
+        0 4px 24px 0 rgba(0,0,0,0.25),
+        0 1px 0 0 #fff3e0 inset;
+    border: 1.5px solid #d2691e;
+    margin-bottom: 24px;
+    padding: 14px 32px;
+    position: relative;
+    overflow: hidden;
+}
+
+.StyleBar::after {
+    content: "";
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: 50%;
+    background: linear-gradient(
+        to top,
+        rgba(255,255,255,0.55) 0%,
+        rgba(255,255,255,0.12) 100%
+    );
+    pointer-events: none;
+}
+
+.StyleBar span strong {
+    color: #fff;
+    text-shadow: 0 1px 4px #d2691e, 0 0 2px #fff;
+    font-family: Segoe UI, Arial, sans-serif;
+    font-weight: 700;
+}
+.StyleBar span {
+    font-family: Segoe UI, Arial, sans-serif;
+    font-size: 1.08em;
+    color: #222;
+}
+
+.vista-banner {
+    flex: 1 1 300px;
+    background: #020202;
+    border: 1px solid #272323;
+    border-radius: 0.2px;
+    padding: 16px;
+    size: 17px;
+    display: flex;
+}
+.header-logo-area {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin: 32px 0 18px 0;
+    justify-content: flex-start;
+}
+    
+
+.main-logo {
+    height: 156px;
+    max-height: 100%;
+    max-width: 100%;
+    width: 156px;
+    width: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    background: #fff;
+    padding: 4px;
+    object-fit: contain;
+}
+.header-logo-area h1 {
+    font-size: 1.7rem;
+    margin: 0;
+    font-family: Segoe UI, Arial, sans-serif;
+    font-weight: 700;
+}
+.license {
+    background: scroll  url('https://img.peapix.com/34fbb768326a4ee0aa8630076b9aefda.jpg') no-repeat center center fixed;
+}
+body, h1, h2, h3, h4, h5, h6, p, span, a, ul, li, strong, b, label, input, button {
+    font-family:  Segoe UI, Arial, sans-serif;
+    position: relative;
+    left: 4px; /* Move todo o texto 4px para a direita */
+}
